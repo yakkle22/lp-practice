@@ -47,10 +47,11 @@ main {
 
 .keyvisual {
   background: url(../img/keyvisual/keyvisual.jpg) no-repeat center/cover;
+  padding: 400px 0;
 }
 
 .keyvisual-inner {
-  padding: 400px 0;
+  /* padding: 400px 0; */
   text-align: center;
 }
 
