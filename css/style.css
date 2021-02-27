@@ -34,6 +34,7 @@ header {
   float: right;
   text-decoration: none;
   margin-top: 15px;
+  transition: all 0.3s;
 }
 
 .contact:hover {
@@ -106,13 +107,14 @@ main {
 .skills {
   background: #fff;
   overflow: auto;
+  padding-top: 50px;
 }
 
 .skills-title,.plan-title {
   text-align: center;
   font-size: 40px;
   letter-spacing: 10px;
-  padding-top: 50px;
+  /* padding-top: 50px; */
 }
 
 .skills-content {
@@ -129,6 +131,7 @@ main {
   width: 300px;
   height: 300px;
   opacity: 0.7;
+  transition: all 0.7s;
 }
 
 /*.skills-item {
@@ -151,13 +154,17 @@ main {
 .plan {
   background: #d0dfea;
   overflow: auto;
+  padding: 50px 0;
+}
+
+.plan-title {
+  padding-bottom: 50px;
 }
 
 .cell-table {
   table-layout: fixed;
   width: 100%;
   font-size: 16px;
-  margin: 50px 0;
   line-height: 26px;
   text-align: center;
 }
@@ -210,10 +217,10 @@ td:first-child {
   overflow: hidden;
   padding: 25px 0;
   width: 185px;
+  transition: all 0.5s;
 }
 
 .icon:hover {
-  transition: 0.5s;
   background: #fff;
 }
 
